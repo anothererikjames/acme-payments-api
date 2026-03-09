@@ -12,4 +12,4 @@ jobs:
         uses: postmanlabs/postman-cli-action@v1
         with:
           api-key: ${{ secrets.POSTMAN_API_KEY }}
-          command: collection run 52238111-dc3285c5-a9ce-4400-9efa-9dcf780be35f -e 52274286-6b3ada60-58ed-48cb-9e47-85009c695e6c --report-events --verbose
+          command: collection run 52274286-2b7a442e-3e93-45ca-8ced-3ad879dbdacc -e 52274286-6b3ada60-58ed-48cb-9e47-85009c695e6c --report-events --verbose
